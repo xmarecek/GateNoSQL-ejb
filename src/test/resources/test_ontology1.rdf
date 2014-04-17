@@ -1,0 +1,28 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:err="http://www.w3.org/2005/xqt-errors#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.0="http://example.org/ontology/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:fn="http://www.w3.org/2005/xpath-functions#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:fti="http://franz.com/ns/allegrograph/2.2/textindex/" > 
+  <rdf:Description rdf:about="http://example.org/people/bobby">
+    <rdf:type rdf:resource="http://example.org/ontology/Person"/>
+    <j.0:name>http://example.org/Bobby</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/people/employee">
+    <j.0:name>http://example.org/Black</j.0:name>
+    <rdf:type rdf:resource="http://example.org/ontology/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/people/bob">
+    <owl:sameAs rdf:resource="http://example.org/people/employee"/>
+    <j.0:fatherOf rdf:resource="http://example.org/people/bobby"/>
+    <rdf:type rdf:resource="http://example.org/ontology/Person"/>
+    <j.0:name>http://example.org/Bob</j.0:name>
+  </rdf:Description>
+</rdf:RDF>
