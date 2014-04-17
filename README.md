@@ -1,5 +1,3 @@
-
-
 ## Project
 
 The implemented EJB component provides services for managing and persisting OWL and RDF data.
@@ -11,16 +9,24 @@ we can united these ontologies on demand and make queries on them.
 The component consists of a class named GateNosqlBean which is Stateless type. The class GateNosqlBean
 implements interface GateNosqlLocal and GateNosqlRemote.
 
+For more details please visit master's thesis of the author [1].
+
+
+
+## Usage
+
+For more details please visit master's thesis of the author [1].
+
 
 
 ## Testing
 
-*It is necessary to install AllegroGraph database (please, see section AllegroGraph 4 Installation).
+It is necessary to install AllegroGraph database (please, see section AllegroGraph 4 Installation).
 
-*After installation, it is necessary to set properties defining connection to AllegroGraph Server in
- configuration/database.properties file (please, see section AllegroGraph 4 Configuration).
+After installation, it is necessary to set properties defining connection to AllegroGraph Server in
+configuration/database.properties file (please, see section AllegroGraph 4 Configuration).
 
-*Run the tests by: mvn clean test
+Run the tests by: mvn clean test
 
 
 
@@ -83,3 +89,7 @@ username = root
 password = root
 
 catalog_id = java-catalog
+
+
+## References
+[1] Bc. Jakub Marecek: NoSQL Database for Storing OWL Data, Master's Thesis, Brno, FI MUNI, 2013
