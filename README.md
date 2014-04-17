@@ -20,9 +20,7 @@ implements interface GateNosqlLocal and GateNosqlRemote.
 *After installation, it is necessary to set properties defining connection to AllegroGraph Server in
  configuration/database.properties file (please, see section AllegroGraph 4 Configuration).
 
-*Run the tests by:
- 
- mvn clean test
+*Run the tests by: mvn clean test
 
 
 
@@ -41,10 +39,8 @@ http://www.franz.com/agraph/allegrograph/doc/server-installation.html#configscri
 for more information. The configuration script asks several questions. The
 default answers are usually adequate and can be reconfigured later if necessary.
 Note that the last few lines of the script show how to start and stop AllegroGraph. These
-lines will be similar to this example:
-
+lines will be similar to this example: 
 You can start AllegroGraph by running: /sbin/service agraph start
-
 You can stop AllegroGraph by running: /sbin/service agraph stop
 
 5. To verify that AllegroGraph is running correctly, it is possible to access Web View.
@@ -71,9 +67,7 @@ for more information. The configuration script asks several questions. The
 default answers are usually adequate and can be reconfigured later if necessary.
 Note that the last few lines of the script show how to start and stop AllegroGraph. These
 lines will be similar to this example:
-
 You can start AllegroGraph by running: /sbin/service agraph start
-
 You can stop AllegroGraph by running: /sbin/service agraph stop
 
 5. To verify that AllegroGraph is running correctly, it is possible to access Web View.
