@@ -1,8 +1,3 @@
-Author:   Jakub Marecek
-Project:  NoSQL Database for the Storage of OWL Data
-Purpose:  Describe essential information about the project
-
-
 
 
 ## Project
@@ -34,9 +29,9 @@ implements interface GateNosqlLocal and GateNosqlRemote.
 Installation from the RPM (Red Hat/Fedora systems)
 1. Obtain agraph-4.12.2-1.x86 64.rpm (or newer) from http://www.franz.com/downloads.lhtml
 2. Install the RPM:
-# rpm -i agraph-4.12.2-1.x86 64.rpm
+   rpm -i agraph-4.12.2-1.x86 64.rpm
 3. Run the configuration script:
-# /usr/bin/configure-agraph
+   /usr/bin/configure-agraph
 4. The script asks several questions about configuring AllegroGraph. Please see
 http://www.franz.com/agraph/allegrograph/doc/server-installation.html#configscript
 for more information. The configuration script asks several questions. The
