@@ -54,11 +54,8 @@ Installation from the TAR.GZ (all systems)
 
 3. This creates the ”agraph-4.12.2” subdirectory, where the installation script is inside. Then,
 provide the path to a writable directory where you want to install AllegroGraph.
-
 $ agraph-4.12.2/install-agraph /home/user/bin/agraph4.12.2
-
 Installation complete.
-
 Now running configure-agraph.
 
 4. The script asks several questions about configuring AllegroGraph. Please see
@@ -79,9 +76,10 @@ http://localhost:10035
 
 The attributes data are stored in configuration/database.properties file. Defaul values are:
 
-### Properties defining connection to AllegroGraph Server
-
 server_url = http://localhost:10035
+
 username = root
+
 password = root
+
 catalog_id = java-catalog
