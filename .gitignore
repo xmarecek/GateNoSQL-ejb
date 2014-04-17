@@ -1,0 +1,6 @@
+# IGNORE LIST
+
+*~
+target/
+bin/
+.settings/
