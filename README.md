@@ -1,15 +1,11 @@
-/**
-*
-* Author:   Jakub Marecek
-* Project:  NoSQL Database for the Storage of OWL Data
-* Purpose:  Describe essential information about the project
-*
-**/
+Author:   Jakub Marecek
+Project:  NoSQL Database for the Storage of OWL Data
+Purpose:  Describe essential information about the project
 
 
 
-Project
-=================================
+
+## Project
 
 The implemented EJB component provides services for managing and persisting OWL and RDF data.
 It can be used as a universal OWL and RDF store. It provides persistence, indexing mechanism
@@ -22,8 +18,7 @@ implements interface GateNosqlLocal and GateNosqlRemote.
 
 
 
-Testing
-=================================
+## Testing
 
 *It is necessary to install AllegroGraph database (please, see section AllegroGraph 4 Installation).
 *After installation, it is necessary to set properties defining connection to AllegroGraph Server in
@@ -34,8 +29,7 @@ Testing
 
 
 
-AllegroGraph 4 Installation
-=================================
+## AllegroGraph 4 Installation
 
 Installation from the RPM (Red Hat/Fedora systems)
 1. Obtain agraph-4.12.2-1.x86 64.rpm (or newer) from http://www.franz.com/downloads.lhtml
@@ -76,12 +70,11 @@ http://localhost:10035
 
 
 
-AllegroGraph 4 Configuration
-=================================
+## AllegroGraph 4 Configuration
 
 The attributes data are stored in configuration/database.properties file. Defaul values are:
 
-# Properties defining connection to AllegroGraph Server
+### Properties defining connection to AllegroGraph Server
 
 server_url = http://localhost:10035
 username = root
