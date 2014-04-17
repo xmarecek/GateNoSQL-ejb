@@ -92,4 +92,5 @@ catalog_id = java-catalog
 
 
 ## References
-[1] Bc. Jakub Marecek: NoSQL Database for Storing OWL Data, Master's Thesis, Brno, FI MUNI, 2013
+[1] Bc. Jakub Marecek: NoSQL Database for Storing OWL Data, Master's Thesis, Brno, FI MUNI, 2013:
+https://drive.google.com/file/d/0B_lyaYXTJkGfY0RaYUx4ZjZTS1E/edit?usp=sharing
